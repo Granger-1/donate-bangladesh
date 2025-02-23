@@ -17,7 +17,7 @@
 
     <!-- font lexend style -->
     <style>
-        .lexend{
+        .lexend {
             font-family: "Lexend", serif;
         }
     </style>
@@ -51,7 +51,7 @@
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <a class="btn bg-[#B4F461] text-black rounded-lg text-xl">Blog</a>
+                <a id="home-html-js" class="btn bg-[#B4F461] text-black rounded-lg text-xl">Home</a>
             </div>
             <!-- nav-center -->
             <div class="hidden lg:flex">
@@ -68,12 +68,12 @@
             <div class="">
                 <ul class="flex items-center gap-3 text-2xl font-bold">
                     <li><img src="assets/coin.png" alt=""></li>
-                    <li><span>5000</span> BDT</li>
+                    <li><span class="home-value-js">5000</span> BDT</li>
                 </ul>
             </div>
         </div>
     </header>
-    <main>
+    <main class="pt-40">
         <!-- main-container -->
         <div class="container mx-auto flex flex-col gap-8">
             <!-- btn-main-section -->
@@ -83,7 +83,9 @@
             </div>
         </div>
     </main>
-
+    <!-- js connection -->
+    <script src="javascript/utility.js"></script>
+    <script src="javascript/home.js"></script>
 </body>
 
 </html>
